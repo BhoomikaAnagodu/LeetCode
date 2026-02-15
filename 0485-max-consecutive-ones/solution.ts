@@ -6,7 +6,6 @@ function findMaxConsecutiveOnes(nums: number[]): number {
             count++;
         }else{
             max = Math.max(count, max);
-
             count = 0;
         }
     }
